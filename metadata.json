@@ -1,0 +1,6 @@
+{
+  "name": "StatusKing AI",
+  "description": "Indian social-media status, quote, Shayari, meme and poster creation app",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
