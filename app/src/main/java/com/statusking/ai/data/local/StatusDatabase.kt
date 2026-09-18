@@ -19,7 +19,7 @@ abstract class StatusDatabase : RoomDatabase() {
                     context.applicationContext,
                     StatusDatabase::class.java,
                     "statusking_database"
-                ).fallbackToDestructiveMigration().build()
+                ).fallbackToDestructiveMigration(false).build()
                 INSTANCE = instance
                 instance
             }

@@ -4,15 +4,15 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.TrendingUp
+import androidx.compose.material.icons.automirrored.outlined.TrendingUp
 import androidx.compose.material.icons.filled.AddCircle
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.TrendingUp
 import androidx.compose.material.icons.filled.WorkspacePremium
 import androidx.compose.material.icons.outlined.AddCircleOutline
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Person
-import androidx.compose.material.icons.outlined.TrendingUp
 import androidx.compose.material.icons.outlined.WorkspacePremium
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -38,7 +38,7 @@ enum class NavDestination(
 ) {
     HOME("Home", Icons.Filled.Home, Icons.Outlined.Home, "bottom_nav_home"),
     CREATE("Create", Icons.Filled.AddCircle, Icons.Outlined.AddCircleOutline, "bottom_nav_create"),
-    TRENDING("Trending", Icons.Filled.TrendingUp, Icons.Outlined.TrendingUp, "bottom_nav_trending"),
+    TRENDING("Trending", Icons.AutoMirrored.Filled.TrendingUp, Icons.AutoMirrored.Outlined.TrendingUp, "bottom_nav_trending"),
     PREMIUM("Premium", Icons.Filled.WorkspacePremium, Icons.Outlined.WorkspacePremium, "bottom_nav_premium"),
     PROFILE("Profile", Icons.Filled.Person, Icons.Outlined.Person, "bottom_nav_profile")
 }

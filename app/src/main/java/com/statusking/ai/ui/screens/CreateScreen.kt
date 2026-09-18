@@ -31,6 +31,8 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.FormatAlignLeft
+import androidx.compose.material.icons.automirrored.filled.FormatAlignRight
 import androidx.compose.material.icons.automirrored.filled.Redo
 import androidx.compose.material.icons.automirrored.filled.Undo
 import androidx.compose.material.icons.filled.AddPhotoAlternate
@@ -38,8 +40,6 @@ import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.ColorLens
 import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.FormatAlignCenter
-import androidx.compose.material.icons.filled.FormatAlignLeft
-import androidx.compose.material.icons.filled.FormatAlignRight
 import androidx.compose.material.icons.filled.FormatBold
 import androidx.compose.material.icons.filled.FormatItalic
 import androidx.compose.material.icons.filled.FormatSize
@@ -576,7 +576,7 @@ fun CreateScreen(
                                         modifier = Modifier.size(36.dp)
                                     ) {
                                         Icon(
-                                            Icons.Filled.FormatAlignLeft,
+                                            Icons.AutoMirrored.Filled.FormatAlignLeft,
                                             contentDescription = "Align Left",
                                             tint = if (config.textAlign == 0) PrimaryVioletLight else MaterialTheme.colorScheme.onSurfaceVariant
                                         )
@@ -596,7 +596,7 @@ fun CreateScreen(
                                         modifier = Modifier.size(36.dp)
                                     ) {
                                         Icon(
-                                            Icons.Filled.FormatAlignRight,
+                                            Icons.AutoMirrored.Filled.FormatAlignRight,
                                             contentDescription = "Align Right",
                                             tint = if (config.textAlign == 2) PrimaryVioletLight else MaterialTheme.colorScheme.onSurfaceVariant
                                         )
